@@ -29,7 +29,7 @@ passport.use(new Strategy({
     clientID: '382715932064760',
     clientSecret: '292930046104a6b99d923e8adff86775',
     // callbackURL: 'http://localhost:3000/login/facebook/return'
-    callbackURL: 'http://localhost/lista'
+    callbackURL: 'http://35.166.7.89/lista'
   },
   function(accessToken, refreshToken, profile, cb) {
     // In this example, the user's Facebook profile is supplied as the user
