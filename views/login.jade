@@ -1,0 +1,42 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        meta(name='description', content='')
+        meta(name='author', content='')
+        link(rel='shortcut icon', href='img/favicon_1.ico')
+        title Velonic - Responsive Admin Dashboard Template
+        // Google-Fonts
+        link(href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600,700,900,400italic', rel='stylesheet')
+        // Bootstrap core CSS
+        link(href='/stylesheets/bootstrap.min.css', rel='stylesheet')
+        link(href='/stylesheets/bootstrap-reset.css', rel='stylesheet')
+        // Animation css
+        link(href='/stylesheets/animate.css', rel='stylesheet')
+        // Icon-fonts css
+        link(href='/assets/font-awesome/css/font-awesome.css', rel='stylesheet')
+        link(href='/assets/ionicon/css/ionicons.min.css', rel='stylesheet')
+        // Morris Chart CSS
+        link(rel='stylesheet', href='assets/morris/morris.css')
+        // Custom styles for this template
+        link(href='/stylesheets/style.css', rel='stylesheet')
+        link(href='/stylesheets/helper.css', rel='stylesheet')
+        link(href='/stylesheets/style-responsive.css', rel='stylesheet')
+
+    body
+        .wrapper-page.animated.fadeInDown
+            .panel.panel-color.panel-primary
+                .panel-heading
+                    h2.text-center.m-t-10
+                        | summon
+                .panel-body
+                    a(href='/login/facebook')
+                        img(src='/images/login.png' style='max-width:100%;max-height:100%')
+        script(src='/javascripts/jquery.js')
+        script(src='/javascripts/bootstrap.min.js')
+        script(src='/javascripts/pace.min.js')
+        script(src='/javascripts/wow.min.js')
+        script(src='/javascripts/jquery.nicescroll.js', type='text/javascript')
+        // common script for all pages
+        script(src='/javascripts/jquery.app.js')
